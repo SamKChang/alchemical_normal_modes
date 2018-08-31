@@ -1,0 +1,18 @@
+span:
+  0:
+    type: mutation
+    range: "5,6,7"
+    index: "0:24"
+
+constraint:
+  0:
+    type: Z_sum
+    Z_sum: 156
+  1:
+    type: element_count
+    element: N
+    count: 10
+  2:
+    type: element_count
+    element: B
+    count: 10
